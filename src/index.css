@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f8f8f8;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #fff;
+  background: scroll;
+  opacity: 1;
+  background: scroll;
+}
+
+.swiper-pagination-bullet-active {
+  background: scroll;
+  background: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  width: max-content;
+  right: 0;
+  left: auto;
+  bottom: var(--swiper-pagination-bottom, 8px);
+
+}
+
